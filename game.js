@@ -1,4 +1,4 @@
-/Script start
+//Script start
 let board = [["c","c","c"],
       	 	 [" "," "," "],
              ["o","o","o"]];
