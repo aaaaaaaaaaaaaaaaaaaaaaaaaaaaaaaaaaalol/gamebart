@@ -4,7 +4,7 @@
                    ["o","o","o"]];
       let sx = 0;
       let sy = 0;
-      document.getElement
+      document.getElementById()
       document.body.onkeyup = function(e) {
   if (e.key == " " ||
       e.code == "Space" ||      
