@@ -5,15 +5,25 @@
   </head>
   <body>
     <script>
-      let board = [["p","p","p"],
+//Script start
+      let board = [["c","c","c"],
                    [" "," "," "],
-                   ["P","P","P"]];
+                   ["o","o","o"]];
       let sx = 0;
       let sy = 0;
+      document.body.onkeyup = function(e) {
+  if (e.key == " " ||
+      e.code == "Space" ||      
+      e.keyCode == 32      
+  ) {
+    board[sx][sy].toUpperCase
+  }
+}
+//Script End
     </script>
     <style>
   
     </style>
-    <p id = "board">ppp\n   \nppp</p>
+    <p id = "board">ppp<br>   <br>ppp</p>
   </body>
 </html>
